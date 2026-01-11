@@ -185,3 +185,108 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 
 - [PABLO TORRES] - Desarrollo inicial
 
+# Práctica de Estructuras No Lineales – Árboles Binarios
+
+## 📌 Información General
+
+- **Título:** Ejercicios de Lógica con Árboles
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** [Xavier Fajardo]
+- **Fecha:** [2026/01/11]
+- **Profesor:** Ing. Pablo Torres
+
+---
+
+## 🛠️ Descripción
+
+Este proyecto implementa varios algoritmos usando estructuras de datos no lineales, específicamente árboles binarios y árboles binarios de búsqueda (BST).
+
+- Se desarrollaron los siguientes ejercicios:
+
+- Inserción de valores en un Árbol Binario de Búsqueda (BST).
+
+- Inversión de un árbol binario.
+
+- Listado de los niveles de un árbol en listas enlazadas.
+
+- Cálculo de la profundidad máxima de un árbol binario.
+
+  Cada ejercicio se encuentra en su propia carpeta y clase.
+
+---
+
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+---
+
+## 🧑‍💻 Explicacion de cada algoritmo realizado
+Ejercicio 01: Insertar en un Árbol Binario de Búsqueda
+
+¿Qué hace?
+
+- Inserta valores en un BST siguiendo las reglas:
+- Valores menores van al subárbol izquierdo.
+- Valores mayores van al subárbol derecho.
+- No se permiten duplicados.
+
+¿Cómo funciona?
+
+- El método compara el valor con el nodo actual:
+- Si el nodo es nulo, crea un nuevo nodo.
+- Si el valor es menor, baja por la izquierda.
+- Si es mayor, baja por la derecha.
+- Se usa recursión hasta encontrar la posición correcta.
+
+
+Ejercicio 02: Invertir un Árbol Binario
+
+¿Qué hace?
+
+- Invierte el árbol intercambiando los hijos izquierdo y derecho de cada nodo.
+
+¿Cómo funciona?
+
+- Recorre el árbol de forma recursiva.
+- Invierte primero los subárboles.
+- Luego intercambia los hijos del nodo actual.
+
+Ejercicio 03: Listar Niveles en Listas Enlazadas
+
+¿Qué hace?
+
+- Genera una lista por cada nivel del árbol.
+
+¿Cómo funciona?
+
+- Usa un recorrido por niveles (BFS).
+- Se utiliza una cola para procesar cada nivel.
+- Cada grupo de nodos se guarda en una lista independiente.
+
+
+Ejercicio 04: Calcular la Profundidad Máxima
+
+¿Qué hace?
+
+- Calcula cuántos niveles tiene el árbol desde la raíz hasta la hoja más profunda.
+
+¿Cómo funciona?
+
+- Si el nodo es nulo, devuelve 0.
+- Calcula la profundidad izquierda y derecha.
+- Retorna la mayor + 1.
+
+# Conclusion
+Esta práctica permitió consolidar el manejo de estructuras de datos no lineales, como árboles binarios y BST, mediante la aplicación de conceptos clave como recursividad, gestión de nodos y organización jerárquica. El desarrollo de los algoritmos subrayó la relevancia de seleccionar recorridos óptimos, implementar soluciones recursivas eficientes y mantener un código estructurado, validando la precisión de cada solución a través de pruebas automáticas. En última instancia, este ejercicio fortalece la lógica de programación y sienta las bases necesarias para abordar desafíos técnicos de mayor complejidad técnica en el ámbito de las estructuras no lineales.
+
